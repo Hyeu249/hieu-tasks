@@ -19,11 +19,7 @@ Call the function with two arguments in **CLI**
 
 **Example:**
 
-Path: \Desktop\1.hieu-tasks
-
-```cli
-cd cli-python
-```
+Inside `cli-python` directory
 
 ```cli
 python -m task x y
