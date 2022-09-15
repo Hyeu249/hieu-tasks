@@ -29,10 +29,5 @@ func Calc(x float64,y float64)  (result float64){
     return math.Round(SqrtExpr*100) / 100
 }
 
-func Calculate(x int) (result int){
-	result = x +2
-	return result
-}
-
 
 //cli: go run main.go
