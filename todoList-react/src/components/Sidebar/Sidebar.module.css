@@ -1,0 +1,54 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 30px 5px 0 0;
+  width: 210px;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #f7f7f7;
+  /* background-color: #fafafa; */
+  transition: width 0.2s ease-in;
+}
+@media (min-width: 700px) {
+  .sidebar {
+    width: 305px;
+  }
+}
+.sidebar_child {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  /* width: 266px; */
+  height: 34px;
+  border-radius: 5px;
+  /* background-color: rgb(233, 233, 233); */
+  user-select: none;
+  cursor: pointer;
+}
+
+#create:checked + label {
+  background-color: rgb(233, 233, 233) !important;
+}
+
+#read:checked + label {
+  background-color: rgb(233, 233, 233) !important;
+}
+#update:checked + label {
+  background-color: rgb(233, 233, 233) !important;
+}
+#delete:checked + label {
+  background-color: rgb(233, 233, 233) !important;
+}
+#create:hover + label {
+  background-color: rgb(233, 233, 233) !important;
+}
+#read:hover + label {
+  background-color: rgb(233, 233, 233) !important;
+}
+#update:hover + label {
+  background-color: rgb(233, 233, 233) !important;
+}
+#delete:hover + label {
+  background-color: rgb(233, 233, 233) !important;
+}

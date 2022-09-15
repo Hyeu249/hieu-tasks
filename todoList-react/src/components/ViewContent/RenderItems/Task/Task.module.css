@@ -1,0 +1,7 @@
+.container_child:hover .dot {
+  background-color: #0066ff !important;
+}
+
+.container_child:hover .task {
+  color: black !important;
+}

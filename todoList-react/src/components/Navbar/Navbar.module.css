@@ -1,0 +1,28 @@
+.top_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* flex-shrink: 0; */
+  padding: 0 40px 0 40px;
+  height: 44px;
+  box-sizing: border-box;
+  border-bottom: 1px solid transparent;
+  user-select: none;
+  background-color: #db4c3f;
+  transition: height 0.2s ease-in;
+}
+.LeftSide {
+  display: flex;
+  align-items: center;
+}
+.RightSide {
+  display: flex;
+  align-items: center;
+  padding-right: 5px;
+}
+.leftSide_icon {
+  margin-right: 5px;
+}
+.rightSide_icon {
+  margin-left: 10px;
+}

@@ -1,0 +1,19 @@
+.responsive {
+  transition: width 0.2s ease-in;
+}
+@media (max-width: 1400px) {
+  .responsive {
+    width: 600px !important;
+  }
+}
+@media (max-width: 1111px) {
+  .responsive {
+    width: 400px !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .responsive {
+    width: 200px !important;
+  }
+}
