@@ -18,13 +18,20 @@ def calc(x,y):
 Call the function with two arguments in **CLI**
 
 **Example:**
+
+Path: \Desktop\1.hieu-tasks
+
+```cli
+cd cli-python
+```
+
 ```cli
 python -m task x y
 ```
 **Notes:**
 - -m   ⇨ module mode
 - x, y ⇨ input
-- task ⇨ file name of project `C:\Users\Desktop\project\task.j`
+- task ⇨ file name of project `\Desktop\project\task.j`
 
 ## Testing
 
